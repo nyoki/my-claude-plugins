@@ -1,0 +1,9 @@
+prompt-smith v0.2.1
+Claude Code用のSkill/Agent/Command/Pluginの作成・レビューツールキット
+
+Author: T.Naito <1581570+nyoki@users.noreply.github.com>
+Sources:
+  - code.claude.com/docs/en/ (fetched: 2026-03-26)
+  - anthropics/claude-code@a542f1b
+  - anthropics/claude-plugins-official@b10b583
+Analyzed at: 2026-03-26

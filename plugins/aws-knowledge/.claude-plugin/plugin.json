@@ -1,0 +1,9 @@
+{
+  "name": "aws-knowledge",
+  "version": "0.1.0",
+  "description": "AWS関連の質問・調査時にAWS Knowledge MCP Serverを自動活用するプラグイン",
+  "author": {
+    "name": "T.Naito",
+    "email": "1581570+nyoki@users.noreply.github.com"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "my-claude-plugins",
+  "version": "1.0.0",
+  "description": "Personal collection of Claude Code plugins",
+  "owner": {
+    "name": "T.Naito",
+    "email": "1581570+nyoki@users.noreply.github.com"
+  },
+  "plugins": [
+    {
+      "name": "prompt-smith",
+      "description": "Claude Code用のSkill/Agent/Commandプロンプト作成・レビューツールキット",
+      "source": "./plugins/prompt-smith",
+      "category": "development"
+    },
+    {
+      "name": "claude-config-doctor",
+      "description": "Audit and optimize your ~/.claude/ configuration for Claude Code",
+      "source": "./plugins/claude-config-doctor",
+      "category": "development"
+    },
+    {
+      "name": "aws-knowledge",
+      "description": "AWS関連の質問・調査時にAWS Knowledge MCP Serverを自動活用するプラグイン",
+      "source": "./plugins/aws-knowledge",
+      "category": "development"
+    }
+  ]
+}

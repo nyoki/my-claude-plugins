@@ -1,0 +1,9 @@
+{
+  "name": "prompt-smith",
+  "version": "0.2.1",
+  "description": "Claude Code用のSkill/Agent/Command/Pluginの作成・レビューツールキット",
+  "author": {
+    "name": "T.Naito",
+    "email": "1581570+nyoki@users.noreply.github.com"
+  }
+}
