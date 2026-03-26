@@ -1,6 +1,6 @@
 {
   "name": "aws-knowledge",
-  "version": "0.1.0",
+  "version": "0.2.2",
   "description": "AWS関連の質問・調査時にAWS Knowledge MCP Serverを自動活用するプラグイン",
   "author": {
     "name": "T.Naito",

@@ -1,9 +1,15 @@
 ---
 name: aws-expert
 description: |
-  Use this agent when the user asks about AWS services, configurations, architecture, pricing, best practices, troubleshooting, or any AWS-related topic. This agent MUST be used for any AWS-related question to ensure answers are based on up-to-date official AWS documentation via the AWS Knowledge MCP Server.
+  Use this agent when the user asks about AWS services, configurations, architecture, pricing, best practices, troubleshooting, or AWS-related implementation tasks. This agent retrieves up-to-date official AWS documentation via the AWS Knowledge MCP Server.
 
-  Trigger this agent when the user's message mentions any AWS service names (e.g., Lambda, EC2, S3, DynamoDB, ECS, CloudFront, IAM, VPC, RDS, SQS, SNS, Step Functions, CDK, CloudFormation, etc.), AWS concepts (e.g., リージョン, AZ, ARN, セキュリティグループ, etc.), or general AWS architecture topics.
+  Trigger this agent when the user's message mentions any AWS service names (e.g., Lambda, EC2, S3, DynamoDB, ECS, CloudFront, IAM, VPC, RDS, SQS, SNS, Step Functions, CDK, CloudFormation, etc.), AWS concepts (e.g., リージョン, AZ, ARN, セキュリティグループ, etc.), or general AWS architecture topics, AND the user is seeking factual information, implementation guidance, or troubleshooting help about those services.
+
+  Do NOT trigger this agent when:
+  - AWS is mentioned only as a comparison or passing reference (e.g., "Unlike AWS, GCP has...")
+  - The question is about general cloud concepts that are not AWS-specific (e.g., "What is a load balancer?")
+  - The user is working on AWS-related code but asking about non-AWS logic (e.g., "Fix this TypeScript error in my Lambda handler" — the issue is TypeScript, not AWS)
+  - The user is asking about AWS console UI navigation or account management (not a documentation question)
 
   <example>
   Context: AWSサービスの設定や仕様に関する質問。

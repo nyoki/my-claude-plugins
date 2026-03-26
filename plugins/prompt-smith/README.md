@@ -1,5 +1,7 @@
 # prompt-smith
 
+> **Note**: 本プラグインは Anthropic 公式の [plugin-dev](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/plugin-dev) が同等以上の機能を提供するようになったため、積極的な開発は終了しています。学習記録として残していますが、新規利用には plugin-dev を推奨します。
+
 Claude Code用のSkill/Agent/Commandプロンプト作成・レビューツールキット。
 
 公式リポジトリ（anthropics/claude-code）のプロンプトパターンを分析し、ベストプラクティスに基づいたプロンプト作成とレビューを支援します。
