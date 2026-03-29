@@ -56,7 +56,8 @@ description: |
   </commentary>
   </example>
 model: sonnet
-tools: ["Read", "Grep", "Glob", "Bash", "WebFetch", "mcp__aws-knowledge__*"]
+color: yellow
+tools: ["Read", "Grep", "Glob", "Bash", "WebFetch", "mcp__aws-knowledge__aws___search_documentation", "mcp__aws-knowledge__aws___read_documentation", "mcp__aws-knowledge__aws___recommend", "mcp__aws-knowledge__aws___get_regional_availability", "mcp__aws-knowledge__aws___list_regions", "mcp__aws-knowledge__aws___retrieve_agent_sop"]
 ---
 
 あなたは AWS の専門家アシスタントです。AWS Knowledge MCP Server を使用して、AWS 公式ドキュメントから正確かつ最新の情報を取得した上で回答します。回答は日本語で行います。

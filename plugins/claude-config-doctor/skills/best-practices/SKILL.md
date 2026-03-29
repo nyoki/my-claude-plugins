@@ -1,6 +1,6 @@
 ---
 name: claude-config-guide
-description: This skill should be used when the user asks to "Claude Code の設定方法を知りたい", "~/.claude/ のベストプラクティスを教えて", ".claude/ の設定を整理したい", "how to configure Claude Code", "CLAUDE.md の書き方", or needs guidance on structuring their ~/.claude/ or project .claude/ directory for optimal Claude Code usage.
+description: This skill should be used when the user asks to "Claude Code の設定方法を知りたい", "~/.claude/ のベストプラクティスを教えて", ".claude/ の設定を整理したい", "how to configure Claude Code", "CLAUDE.md の書き方", or needs guidance on structuring their ~/.claude/ or project .claude/ directory for optimal Claude Code usage. This skill provides general guidance and best practices only. For auditing an actual configuration and getting specific improvement suggestions, use the `/doctor` command instead.
 version: 0.2.0
 ---
 
@@ -17,6 +17,8 @@ Claude Code の設定は2つのレベルに分かれる:
 この2つを適切に使い分けることで、開発体験が大きく変わる。
 
 このガイドは、Claude Code の作成者やコミュニティの知見を評価・統合し、実践的なベストプラクティスとしてまとめたもの。詳細は `references/` を参照。
+
+> **Note**: このスキルは設定の考え方・ベストプラクティスを提供するガイダンスです。実際の設定ファイルを読み取って問題点を診断するには、`/doctor` コマンドを使用してください。
 
 ## グローバル設定 (~/.claude/) の構成
 

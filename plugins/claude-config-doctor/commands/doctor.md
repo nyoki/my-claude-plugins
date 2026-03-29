@@ -1,7 +1,7 @@
 ---
 description: Audit your Claude Code configuration and get improvement suggestions
 argument-hint: "[scope] [component] — scope: user|project|all, component: claude-md|settings|agents|skills|memory|all"
-allowed-tools: ["Agent"]
+allowed-tools: ["Agent", "AskUserQuestion"]
 ---
 
 Audit the user's Claude Code configuration against best practices.

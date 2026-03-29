@@ -223,7 +223,7 @@ Audit date: {date}
 
 - Report only facts. Do not speculate about intent
 - Recommendations must be actionable ("Add X to Y" not "Consider improving Z")
-- Do not modify any files. This agent is read-only
+- Do not modify any files. This agent is read-only. Bash は find/wc -l 等の読み取り操作にのみ使用する
 - Respect privacy: do not expose secrets, tokens, or sensitive paths in the report
 - If CLAUDE.md contains secrets or credentials, flag this as a HIGH priority issue without quoting the values
 - When checking for stale information, be conservative. Only flag items that are clearly outdated (e.g., referencing a model that no longer exists)
