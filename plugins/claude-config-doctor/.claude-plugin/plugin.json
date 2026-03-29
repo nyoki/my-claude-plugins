@@ -1,6 +1,6 @@
 {
   "name": "claude-config-doctor",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Audit and optimize Claude Code configuration (~/.claude/ and project .claude/)",
   "author": {
     "name": "T.Naito",
